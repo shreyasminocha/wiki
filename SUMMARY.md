@@ -7,6 +7,7 @@
 * [The Twelve-Factor App](programming/the-twelve-factor-app.md)
 * [The Pragmatic Programmer](programming/the-pragmatic-programmer.md)
 * [Haskell](programming/haskell.md)
+* [Svelte](programming/svelte.md)
 * [SQL](programming/sql/README.md)
   * [SQL Queries](programming/sql/queries.md)
 * [Python](programming/python/README.md)
@@ -17,8 +18,4 @@
   * [JSONPath](programming/javascript/jsonpath.md)
   * [Jest](programming/javascript/jest.md)
   * [Koa](programming/javascript/koa.md)
-
-## Computer Science
-
-## math
 
