@@ -10,6 +10,11 @@
 * [Svelte](programming/svelte.md)
 * [MDX](programming/mdx.md)
 * [Fish](programming/fish.md)
+* [LaTeX](programming/latex.md)
+* [TypeScript](programming/typescript.md)
+* [Gatsby](programming/gatsby.md)
+* [GraphQL](programming/graphql.md)
+* [HTTP](programming/http.md)
 * [SQL](programming/sql/README.md)
   * [SQL Queries](programming/sql/queries.md)
 * [Python](programming/python/README.md)
@@ -21,4 +26,5 @@
   * [Jest](programming/javascript/jest.md)
   * [Koa](programming/javascript/koa.md)
   * [AVA](programming/javascript/ava.md)
+  * [Knex](programming/javascript/knex.md)
 
