@@ -20,10 +20,10 @@ Haskell is a purely functional programming language.
 
 Haskell:
 
-* is statically typed.
-* has type inference.
-* is lazy.
-* is cool and unique \(for people used to OO languages\).
+-   is statically typed.
+-   has type inference.
+-   is lazy.
+-   is cool and unique \(for people used to OO languages\).
 
 ## Basics
 
@@ -37,60 +37,60 @@ Comments begin with `--` and run till the end of the line.
 
 #### Arithmetic
 
-* `+`
-* `-`
-* `*`
-* `/` \(float division\)
+-   `+`
+-   `-`
+-   `*`
+-   `/` \(float division\)
 
 #### Boolean
 
-* `&&`
-* `||`
-* `not`
+-   `&&`
+-   `||`
+-   `not`
 
 #### Logical
 
-* `==`
-* `/=` — "≠"
-* `>`
-* `<`
-* `>=`
-* `<=`
+-   `==`
+-   `/=` — "≠"
+-   `>`
+-   `<`
+-   `>=`
+-   `<=`
 
 #### Other
 
-* `:` — "cons" operator. Adds something to the beginning of a list
-* `++` — concatenation operator
-* `!!` — list indexing operator. e.g. `[1, 2, 3] !! 2` gives `3`
+-   `:` — "cons" operator. Adds something to the beginning of a list
+-   `++` — concatenation operator
+-   `!!` — list indexing operator. e.g. `[1, 2, 3] !! 2` gives `3`
 
 ### Basic in-built functions
 
-* `succ` — "successor"
-* `pred` — "predecessor"
-* `min`
-* `max`
-* `head` — first element of a list
-* `tail` — all but first element of a list
-* `last` — last element of a list
-* `init` — all but last element of a list
-* `length`
-* `null` — checks if a list is empty, that is, if it is `[]`
-* `reverse` — reverses a list
-* `take` — `take x y` returns the first `x` elements of list `y`
-* `drop` — `drop x y` removes and returns the first `x` elements of list `y`
-* `maximum` — returns the largest element of a list
+-   `succ` — "successor"
+-   `pred` — "predecessor"
+-   `min`
+-   `max`
+-   `head` — first element of a list
+-   `tail` — all but first element of a list
+-   `last` — last element of a list
+-   `init` — all but last element of a list
+-   `length`
+-   `null` — checks if a list is empty, that is, if it is `[]`
+-   `reverse` — reverses a list
+-   `take` — `take x y` returns the first `x` elements of list `y`
+-   `drop` — `drop x y` removes and returns the first `x` elements of list `y`
+-   `maximum` — returns the largest element of a list
 
-  — `minimum` — `maximum`s brother
+    — `minimum` — `maximum`s brother
 
-* `sum` — ∑ over a list
-* `products` — ∏ over a list
-* `elem` — whether an element is in a list
-* `mod` — `mod x y` is the remainder when `y` is divided by `x`
-* `even`
-* `odd`
-* `div` — integer division.
+-   `sum` — ∑ over a list
+-   `products` — ∏ over a list
+-   `elem` — whether an element is in a list
+-   `mod` — `mod x y` is the remainder when `y` is divided by `x`
+-   `even`
+-   `odd`
+-   `div` — integer division.
 
-Functions can also be called in the infix form. For example, `elem 2 [1, 2, 3]` is equivalent to ``2 `elem` [1, 2, 3]``.
+Functions can also be called in the infix form. For example, `elem 2 [1, 2, 3]` is equivalent to `` 2 `elem` [1, 2, 3] ``.
 
 ### Functions
 
@@ -215,19 +215,19 @@ case <expression> of <pattern> -> <result>
 
 Haskell's cool in that you can create infinite lists. For example, `let x = [1,2..]` creates and stores an infinite list of natural numbers. Since Haskell is lazy, it does not evaluate the list until it needs to. `take 29 x` and `take 500 x` return the first 29 and 500 natural numbers respectively.
 
-* `cycle` — cycles a list into an infinite list
-* `repeat` — `repeat x` returns an infinite list containing infinite `x`s.
+-   `cycle` — cycles a list into an infinite list
+-   `repeat` — `repeat x` returns an infinite list containing infinite `x`s.
 
 ### List comprehensions
 
 ~~COOL!~~
 
-* `let perfectSquares = [x^2 | x <- [0..]]` — an infinite list of perfect squares
-* ``let evenNumbers = [x | x <- [0..], x `mod` 2 == 0]`` — a relatively ugly way of producing an infinite list of even numbers
+-   `let perfectSquares = [x^2 | x <- [0..]]` — an infinite list of perfect squares
+-   `` let evenNumbers = [x | x <- [0..], x `mod` 2 == 0] `` — a relatively ugly way of producing an infinite list of even numbers
 
 Filtering is a common pattern in FP.
 
-* `[x*y | x <- [2,5,10], y <- [8,10,11]]` — multiplies all pairs \(x, y\) where `x` is an element of `[2,5,10]` and `y` is an element of `[8,10,11]`.
+-   `[x*y | x <- [2,5,10], y <- [8,10,11]]` — multiplies all pairs \(x, y\) where `x` is an element of `[2,5,10]` and `y` is an element of `[8,10,11]`.
 
 Here are a few more examples:
 
@@ -254,14 +254,14 @@ BTW nested list comprehensions are possible on nested lists.
 
 Tuples:
 
-* are immutable
-* are typed — `(Int, Char)` is incompatible with `(Int, String)`. Also, `(Int, Int)` is incompatible with `(Int, Int, Int)`
-* are not "cons-able"
+-   are immutable
+-   are typed — `(Int, Char)` is incompatible with `(Int, String)`. Also, `(Int, Int)` is incompatible with `(Int, Int, Int)`
+-   are not "cons-able"
 
 Functions on tuples:
 
-* `fst` — returns the first element of a tuple
-* `snd` — returns the second element of a tuple
+-   `fst` — returns the first element of a tuple
+-   `snd` — returns the second element of a tuple
 
 [Some people advise against using tuples with &gt; 2 elements](https://www.seas.upenn.edu/~cis194/spring13/lectures/01-intro.html#pairs).
 
@@ -271,17 +271,17 @@ As mentioned earlier, Haskell is statically typed. It has a powerful and "expres
 
 Haskell has type inference, but explicit types annotations have several benefits:
 
-* Serve as a form of documentation.
-* Some run-time errors wil now be compile-time errors.
+-   Serve as a form of documentation.
+-   Some run-time errors wil now be compile-time errors.
 
 ### Common types
 
-* `Int` — bounded. 32 or 64 bits depending on the machine.
-* `Integer` — not bounded. `BigInteger` of sorts
-* `Float`
-* `Double`
-* `Bool`
-* `Char`
+-   `Int` — bounded. 32 or 64 bits depending on the machine.
+-   `Integer` — not bounded. `BigInteger` of sorts
+-   `Float`
+-   `Double`
+-   `Bool`
+-   `Char`
 
 ### Typeclasses
 
@@ -291,26 +291,26 @@ The prefix `:t` can be used to examine the type of an expression in GHCi.
 
 #### Common typeclasses
 
-* `Eq` — support equality testing
-* `Ord` — types whose values can be ordered. `Ordering` is a type that can be `GT`, `LT` or `EQ`.
-* `Show` — can be represented as strings, that is, they can be converted to strings.
-* `Read` — can be converted from strings
-* `Enum` — sequentially ordered types. Can be used in list ranges. Have `succ`s and `pred`s.
-* `Bounded` — have upper and lower bounds
-* `Num` — "numeric". Can behave like numbers.
-* `Integral` — "integers". Implements `Num`.
-* `Floating` — "floating point numbers". Also implements `Num`.
+-   `Eq` — support equality testing
+-   `Ord` — types whose values can be ordered. `Ordering` is a type that can be `GT`, `LT` or `EQ`.
+-   `Show` — can be represented as strings, that is, they can be converted to strings.
+-   `Read` — can be converted from strings
+-   `Enum` — sequentially ordered types. Can be used in list ranges. Have `succ`s and `pred`s.
+-   `Bounded` — have upper and lower bounds
+-   `Num` — "numeric". Can behave like numbers.
+-   `Integral` — "integers". Implements `Num`.
+-   `Floating` — "floating point numbers". Also implements `Num`.
 
 ### Relevant functions
 
-* `compare`
-* `read`
-* `show`
+-   `compare`
+-   `read`
+-   `show`
 
 The following are not functions, but polymorphic constants:
 
-* `minBound` — For example, `minBound :: Int`
-* `maxBound` — For example, `maxBound :: Int`
+-   `minBound` — For example, `minBound :: Int`
+-   `maxBound` — For example, `maxBound :: Int`
 
 Whole numbers are also polymorphic constants — `20 :: Float`.
 
@@ -347,12 +347,12 @@ Names of types begin with uppercase letters.
 
 Recursion is an important pattern in FP. While the fibonacci sequence, factorial etc are cliché examples of recursion, many more functions can be written with recursion.
 
-* `maximum`
-* `replicate`
-* `reverse`
-* `zip`
-* `sum`
-* `product`
+-   `maximum`
+-   `replicate`
+-   `reverse`
+-   `zip`
+-   `sum`
+-   `product`
 
 Obligatory cliché Haskell quicksort:
 
@@ -381,8 +381,7 @@ quicksort (pivot:rest) =
 
 ## Resources
 
-* [LYAH](https://learnyouahaskell.com). Many examples here are adapted from LYAH.
-* [UPenn's CIS194](https://www.seas.upenn.edu/~cis194/spring13/lectures.html)
-* [Haskell awesome list](https://github.com/krispo/awesome-haskell)
-* [FP awesome list](https://github.com/xgrommx/awesome-functional-programming)
-
+-   [LYAH](https://learnyouahaskell.com). Many examples here are adapted from LYAH.
+-   [UPenn's CIS194](https://www.seas.upenn.edu/~cis194/spring13/lectures.html)
+-   [Haskell awesome list](https://github.com/krispo/awesome-haskell)
+-   [FP awesome list](https://github.com/xgrommx/awesome-functional-programming)

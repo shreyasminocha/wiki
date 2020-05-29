@@ -51,4 +51,3 @@ enum Result {
 ```
 
 ## Classes
-

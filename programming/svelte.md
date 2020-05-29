@@ -2,9 +2,9 @@
 
 Svelte is a "framework-less framework".
 
-* No virtual DOM
-* Single-file components
-* Templating-like syntax
+-   No virtual DOM
+-   Single-file components
+-   Templating-like syntax
 
 ```text
 <script>
@@ -92,16 +92,16 @@ Styles are _component-scoped_.
 
 ## Events
 
-* `on:click`
-* `on:mousemove`
-* `on:submit`
-* …
-* `|once`
-* `|preventDefault`
+-   `on:click`
+-   `on:mousemove`
+-   `on:submit`
+-   …
+-   `|once`
+-   `|preventDefault`
 
 ## Bindings
 
-* `bind:value`
+-   `bind:value`
 
 ```markup
 <script>
@@ -115,10 +115,9 @@ Styles are _component-scoped_.
 </p>
 ```
 
-* `bind:checked`
-* `bind:group`
+-   `bind:checked`
+-   `bind:group`
 
 ## Links
 
-* [Official examples](https://svelte.dev/examples)
-
+-   [Official examples](https://svelte.dev/examples)

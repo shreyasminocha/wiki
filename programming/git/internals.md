@@ -12,13 +12,13 @@ Git is not magic.
 $ ls -F1 .git
 ```
 
-* `config` — project-specific configuration
-* `index` — git stores staging index information in this file
-* `HEAD` — points to the currently checked-out branch
-* `hooks/` — client-side and server-side hooks
-* `info/` — global exclude file
-* `objects/` — stores content
-* `refs/` — "stores pointers into commit objects in that data \(branches, tags, remotes and more\)"
+-   `config` — project-specific configuration
+-   `index` — git stores staging index information in this file
+-   `HEAD` — points to the currently checked-out branch
+-   `hooks/` — client-side and server-side hooks
+-   `info/` — global exclude file
+-   `objects/` — stores content
+-   `refs/` — "stores pointers into commit objects in that data \(branches, tags, remotes and more\)"
 
 ## Objects
 
@@ -95,11 +95,11 @@ $ git update-index --add --cacheinfo 100644 257cc5642cb1a054f08cc83f2d943e56fd3e
 
 Git's modes are based on UNIX's, but are much stricter. The following are the valid modes for files:
 
-| Mode | Description |
-| :--- | :--- |
-| `100644` | Normal |
-| `100755` | Executable |
-| `120000` | Symlink |
+| Mode     | Description |
+| :------- | :---------- |
+| `100644` | Normal      |
+| `100755` | Executable  |
+| `120000` | Symlink     |
 
 `git write-tree` writes the staging area to a tree.
 
@@ -120,6 +120,5 @@ $ git cat-file -p b6643bc0af3fefb3ea606e41cee107ec08fbbed8
 
 ## See also
 
-* [https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain](https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain)
-* [https://jwiegley.github.io/git-from-the-bottom-up/](https://jwiegley.github.io/git-from-the-bottom-up/)
-
+-   [https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain](https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain)
+-   [https://jwiegley.github.io/git-from-the-bottom-up/](https://jwiegley.github.io/git-from-the-bottom-up/)

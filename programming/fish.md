@@ -28,17 +28,15 @@ if test $status -ne 0;
 end
 ```
 
-* `-eq`
-* `-ne`
-* `-gt`
-* `-ge`
-* `-lt`
-* `-le`
+-   `-eq`
+-   `-ne`
+-   `-gt`
+-   `-ge`
+-   `-lt`
+-   `-le`
 
-
-
-* `-f`
-* `-d`
+*   `-f`
+*   `-d`
 
 ```text
 if ...;
@@ -56,13 +54,12 @@ end
 set foo hi
 ```
 
-* `-l` — scoped local to the current block
-* `-g` — global scope
-* `-x` — environment variable
+-   `-l` — scoped local to the current block
+-   `-g` — global scope
+-   `-x` — environment variable
 
 ## Command Substitution
 
 ```text
 set total (math "$total+1")
 ```
-

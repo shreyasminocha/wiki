@@ -95,4 +95,3 @@ select avg(price) from inventory;
 ```sql
 select sum(price) from inventory;
 ```
-

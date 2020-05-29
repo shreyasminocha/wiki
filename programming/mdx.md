@@ -11,15 +11,14 @@ I _love_ markdown as an authoring format, but it's limitations can get real, mak
 
 ## Deployment Options
 
-* \*\*\*\*[**Gatsby**](https://gatsbyjs.org) — [`gatsby-plugin-mdx`](https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/)
-* [Charge](https://charge.js.org/)
-* React
-* Parcel \| Webpack
-* Zero
+-   \*\*\*\*[**Gatsby**](https://gatsbyjs.org) — [`gatsby-plugin-mdx`](https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/)
+-   [Charge](https://charge.js.org/)
+-   React
+-   Parcel \| Webpack
+-   Zero
 
 ### Links
 
-* [Official site](https://mdxjs.com)
-* [Showcase](https://github.com/mdx-js/mdx/issues/414)
-* [MDX Deck](https://github.com/jxnblk/mdx-deck)
-
+-   [Official site](https://mdxjs.com)
+-   [Showcase](https://github.com/mdx-js/mdx/issues/414)
+-   [MDX Deck](https://github.com/jxnblk/mdx-deck)

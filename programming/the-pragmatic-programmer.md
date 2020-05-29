@@ -294,89 +294,88 @@ Tired of C, C++, and Java? Try CLOS, Dylan, Eiffel, Objective C, Prolog, Smallta
 
 ### ✔ The WISDOM Acrostic
 
-* What do you **want** them to learn?
-* What is their **interest** in what you’ve got to say?
-* How **sophisticated** are they?
-* How much **detail** do they want?
-* Whom do you want to **own** the information?
-* How can you **motivate** them to listen to you?
+-   What do you **want** them to learn?
+-   What is their **interest** in what you’ve got to say?
+-   How **sophisticated** are they?
+-   How much **detail** do they want?
+-   Whom do you want to **own** the information?
+-   How can you **motivate** them to listen to you?
 
 ### ✔ How to Maintain Orthogonality
 
-* Design independent, well-defined components. Keep your code decoupled.
-* Avoid global data.
-* Refactor similar functions.
+-   Design independent, well-defined components. Keep your code decoupled.
+-   Avoid global data.
+-   Refactor similar functions.
 
 ### ✔ Things to prototype
 
-* Architecture
-* New functionality in an existing system
-* Structure or contents of external data Third-party tools or components
-* Performance issues
-* User interface design
+-   Architecture
+-   New functionality in an existing system
+-   Structure or contents of external data Third-party tools or components
+-   Performance issues
+-   User interface design
 
 ### ✔ ArchitecturalQuestions
 
-* Are responsibilities well defined?
-* Are the collaborations well defined?
-* Is coupling minimized?
-* Can you identify potential duplication?
-* Are interface definitions and constraints accept- able?
-* Can modules access needed data—when needed?
+-   Are responsibilities well defined?
+-   Are the collaborations well defined?
+-   Is coupling minimized?
+-   Can you identify potential duplication?
+-   Are interface definitions and constraints accept- able?
+-   Can modules access needed data—when needed?
 
 ### ✔ Debugging Checklist
 
-* Is the problem being reported a direct result of the underlying bug, or merely a symptom?
-* Is the bug really in the compiler? Is it in the OS? Or is it in your code?
-* If you explained this problem in detail to a coworker, what would you say?
-* If the suspect code passes its unit tests, are the tests complete enough? What happens if you run the unit test with this data?
-* Do the conditions that caused this bug exist anywhere else in the system?
+-   Is the problem being reported a direct result of the underlying bug, or merely a symptom?
+-   Is the bug really in the compiler? Is it in the OS? Or is it in your code?
+-   If you explained this problem in detail to a coworker, what would you say?
+-   If the suspect code passes its unit tests, are the tests complete enough? What happens if you run the unit test with this data?
+-   Do the conditions that caused this bug exist anywhere else in the system?
 
 ### ✔ Law of Demeter for Functions
 
 An object’s method should call only methods belonging to:
 
-* Itself
-* Any parameters passed in
-* Objects it creates
-* Component objects
+-   Itself
+-   Any parameters passed in
+-   Objects it creates
+-   Component objects
 
 ### ✔ How to Program Deliberately
 
-* Stay aware of what you’re doing.
-* Don’t code blindfolded.
-* Proceed from a plan.
-* Rely only on reliable things.
-* Document your assumptions.
-* Test assumptions as well as code.
-* Prioritize your effort.
-* Don’t be a slave to history.
+-   Stay aware of what you’re doing.
+-   Don’t code blindfolded.
+-   Proceed from a plan.
+-   Rely only on reliable things.
+-   Document your assumptions.
+-   Test assumptions as well as code.
+-   Prioritize your effort.
+-   Don’t be a slave to history.
 
 ### ✔ When to Refactor
 
-* You discover a violation of the DRY principle.
-* You find things that could be more orthogonal.
-* Your knowledge improves.
-* The requirements evolve.
-* You need to improve performance.
+-   You discover a violation of the DRY principle.
+-   You find things that could be more orthogonal.
+-   Your knowledge improves.
+-   The requirements evolve.
+-   You need to improve performance.
 
 ### ✔ Cutting the Gordian Knot
 
 When solving impossible problems, ask yourself:
 
-* Is there an easier way?
-* Am I solving the right problem?
-* Why is this a problem?
-* What makes it hard?
-* Do I have to do it this way?
-* Does it have to be done at all?
+-   Is there an easier way?
+-   Am I solving the right problem?
+-   Why is this a problem?
+-   What makes it hard?
+-   Do I have to do it this way?
+-   Does it have to be done at all?
 
 ### ✔ Aspects of Testing
 
-* Unit testing
-* Integration testing
-* Validation and verification
-* Resource exhaustion, errors, and recovery Performance testing
-* Usability testing
-* Testing the tests themselves
-
+-   Unit testing
+-   Integration testing
+-   Validation and verification
+-   Resource exhaustion, errors, and recovery Performance testing
+-   Usability testing
+-   Testing the tests themselves
