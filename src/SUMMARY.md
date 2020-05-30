@@ -1,5 +1,6 @@
 # Table of contents
 
+-   [home](README.md)
 -   [privacy](privacy/README.md)
     -   [Tor](privacy/tor.md)
 -   [programming](programming/README.md)
