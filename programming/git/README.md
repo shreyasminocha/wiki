@@ -15,6 +15,12 @@ git mv -f README.md readme.md
     signingkey = 00000000
 ```
 
+### Verify commits
+
+```sh
+git verify-commit c567d83
+```
+
 ## Rename branches
 
 ```sh

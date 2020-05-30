@@ -2,8 +2,13 @@
 
 -   [Shreyas Minocha's Wiki](README.md)
 
+## privacy
+
+-   [Tor](privacy/tor.md)
+
 ## programming
 
+-   [Eleventy](programming/eleventy.md)
 -   [Fish](programming/fish.md)
 -   [Gatsby](programming/gatsby.md)
 -   [Git](programming/git/README.md)
