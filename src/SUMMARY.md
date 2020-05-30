@@ -1,9 +1,9 @@
 # Table of contents
 
--   [home](README.md)
--   [privacy](privacy/README.md)
+-   [Home](README.md)
+-   [Privacy](privacy/README.md)
     -   [Tor](privacy/tor.md)
--   [programming](programming/README.md)
+-   [Programming](programming/README.md)
     -   [Eleventy](programming/eleventy.md)
     -   [Fish](programming/fish.md)
     -   [Gatsby](programming/gatsby.md)

@@ -2,7 +2,7 @@
 
 Welcome to my wiki.
 
-There used to be a MediaWiki instance here, but I've now switched to Gitbook. I'll migrate pre-existing content shortly.
+At the moment, it contains mostly programming-related stuff.
 
 ## License
 
