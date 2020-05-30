@@ -1,7 +1,3 @@
----
-description: Assorted notes by Shreyas Minocha
----
-
 # Shreyas Minocha's Wiki
 
 Welcome to my wiki.

@@ -1,0 +1,18 @@
+[book]
+    title = "Shreyas' Wiki"
+    description = "Assorted notes and guides"
+    author = "Shreyas Minocha"
+    language = "en"
+    multilingual = false
+    src = "src"
+
+[output.html]
+    curly-quotes = true
+    mathjax-support = true
+    no-section-label = true
+    git-repository-url = "https://github.com/shreyasminocha/wiki"
+    additional-css = ["custom/style.css"]
+
+[output.html.fold]
+    enable = true
+    level = 1
