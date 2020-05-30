@@ -47,7 +47,7 @@ enum Result {
     pass = 'type',
     fail = 'fail',
     info = 'info'
-}​
+}
 ```
 
 ## Classes

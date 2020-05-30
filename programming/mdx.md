@@ -6,15 +6,15 @@ MDX allows using JSX components within markdown. This means it's possible to imp
 
 I _love_ markdown as an authoring format, but it's limitations can get real, making it unsuitable for anything beyond vanilla content. MDX breaks this barrier.
 
-> MDX has no runtime, all compilation occurs  
+> MDX has no runtime, all compilation occurs
 > during the build stage.
 
 ## Deployment Options
 
--   \*\*\*\*[**Gatsby**](https://gatsbyjs.org) — [`gatsby-plugin-mdx`](https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/)
+-   [**Gatsby**](https://gatsbyjs.org) — [`gatsby-plugin-mdx`](https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/)
 -   [Charge](https://charge.js.org/)
 -   React
--   Parcel \| Webpack
+-   Parcel | Webpack
 -   Zero
 
 ### Links

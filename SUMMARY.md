@@ -13,6 +13,7 @@
 -   [HTTP](programming/http.md)
 -   [JavaScript](programming/javascript/README.md)
     -   [AVA](programming/javascript/ava.md)
+    -   [Got](programming/javascript/got.md)
     -   [Jest](programming/javascript/jest.md)
     -   [JSONPath](programming/javascript/jsonpath.md)
     -   [Knex](programming/javascript/knex.md)

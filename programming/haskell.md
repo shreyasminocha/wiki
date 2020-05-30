@@ -7,12 +7,11 @@ Haskell is a purely functional programming language.
 > “Functional languages excel at wholemeal programming, a term coined by Geraint Jones. Wholemeal programming means to think big: work with an entire list, rather than a sequence of elements; develop a solution space, rather than an individual solution; imagine a graph, rather than a single path. The wholemeal approach often offers new insights or provides new perspectives on a given problem. It is nicely complemented by the idea of projective programming: first solve a more general problem, then extract the interesting bits and pieces by transforming the general program into more specialised ones.”
 >
 > —Ralf Hinze
->
+
 > There is no precise, accepted meaning for the term “functional”. But when we say that Haskell is a functional language, we usually have in mind two things:
 >
-> Functions are first-class, that is, functions are values which can be used in exactly the same ways as any other sort of value.
->
-> The meaning of Haskell programs is centered around evaluating expressions rather than executing instructions.
+> -   Functions are first-class, that is, functions are values which can be used in exactly the same ways as any other sort of value.
+> -   The meaning of Haskell programs is centered around evaluating expressions rather than executing instructions.
 >
 > —[CIS194 by UPenn](https://www.seas.upenn.edu/~cis194/spring13/lectures/01-intro.html)
 
