@@ -40,3 +40,18 @@ mysqldump -u someuser --password somedb > somedb.sql
 mysql -u someuser --password somedb < somedb.sql
 ```
 
+## Troubleshooting
+
+### Authentication
+
+#### Client does not support authentication protocol
+
+```mysql
+alter user 'user'@'localhost' identified by 'new_pwd'; 
+alter user 'user'@'localhost' identified with mysql_native_password BY 'new_pwd';
+```
+
+—[TIAGO SILVA](https://stackoverflow.com/a/53463633)
+
+### Connection
+
