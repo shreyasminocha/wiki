@@ -9,3 +9,30 @@
 .hljs {
     padding: 20px;
 }
+
+pre {
+    margin: 1rem 0;
+    background: #eee;
+    padding: 2rem;
+}
+
+code {
+    background: #eee;
+    padding: 0.2rem;
+}
+
+blockquote {
+    background: none;
+    border: none;
+    border-left: 5px solid whitesmoke;
+    font-style: italic;
+    padding: 0.75rem;
+}
+
+.mobile-nav-chapters {
+    background: none;
+}
+
+h2 {
+    margin-top: 1.5em;
+}
