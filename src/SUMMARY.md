@@ -1,6 +1,8 @@
 # Table of contents
 
 -   [Home](readme.md)
+-   [Computer Science](cs/readme.md)
+-   [Math](math/readme.md)
 -   [Privacy](privacy/readme.md)
     -   [Tor](privacy/tor.md)
 -   [Programming](programming/readme.md)
