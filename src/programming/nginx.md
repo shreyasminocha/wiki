@@ -16,6 +16,14 @@ Modifiers:
 -   `~*` — case-insensitive regex
 -   `^~` — non-regex
 
+
+
+```nginx
+client_max_body_size 25M;
+```
+
+
+
 ## Logging
 
 ```
