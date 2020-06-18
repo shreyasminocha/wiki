@@ -41,7 +41,7 @@ They're globals.
 ---
 name: Foo
 chairperson: bar
-​```
+---
 ```
 
 ```pug
