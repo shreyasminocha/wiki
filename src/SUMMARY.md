@@ -3,6 +3,7 @@
 -   [Home](readme.md)
 -   [Computer Science](cs/readme.md)
 -   [Math](math/readme.md)
+    -   [Linear Algebra](math/linear-algebra.md)
 -   [Privacy](privacy/readme.md)
     -   [Tor](privacy/tor.md)
 -   [Programming](programming/readme.md)

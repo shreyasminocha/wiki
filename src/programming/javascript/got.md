@@ -25,8 +25,7 @@ await got("https://example.com");
 
 ```js
 const response = await got("https://example.com");
-const { body } = response;
-const { data } = body;
+const body = JSON.parse(response.body);
 ```
 
 ## Search parameters

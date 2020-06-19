@@ -22,3 +22,23 @@ Koa is awesome \[citation needed\].
 -   [`koa-static`](https://npmjs.com/package/koa-static)
 -   [`koa-session`](https://npmjs.com/package/koa-session)
 -   [`koa-passport`](https://npmjs.com/package/koa-passport)
+
+## Minimal Koa app
+
+```js
+import Koa from "koa";
+import Router from "koa-router";
+
+const app = new Koa();
+const router = new Router();
+
+router.get("/", async (ctx) => {
+    ctx.body = "response";
+});
+
+app.use(router.routes());
+app.use(router.allowedMethods())
+
+app.listen(process.env.PORT || 3000);
+```
+
