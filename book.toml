@@ -13,7 +13,6 @@
     git-repository-url = "https://github.com/shreyasminocha/wiki"
     additional-css = ["custom/docco.css", "custom/style.css"]
     additional-js = ["custom/mathjax.js"]
-    mathjax-support = true
 
 [output.html.fold]
     enable = true
