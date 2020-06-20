@@ -4,6 +4,8 @@
 -   [Computer Science](cs/readme.md)
 -   [Math](math/readme.md)
     -   [Linear Algebra](math/linear-algebra.md)
+    -   [Calculus](math/calculus/readme.md)
+        -   [Single Variable Calculus](math/calculus/single-variable.md)
 -   [Privacy](privacy/readme.md)
     -   [Tor](privacy/tor.md)
 -   [Programming](programming/readme.md)
