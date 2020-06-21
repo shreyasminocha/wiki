@@ -11,7 +11,7 @@
     mathjax-support = true
     no-section-label = true
     git-repository-url = "https://github.com/shreyasminocha/wiki"
-    additional-css = ["custom/docco.css", "custom/style.css"]
+    additional-css = ["custom/style.css"]
     additional-js = ["custom/mathjax.js"]
 
 [output.html.fold]
