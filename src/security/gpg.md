@@ -1,5 +1,15 @@
 # GnuPG CLI
 
+## Encrypt files
+
+```sh
+gpg --encrypt --recipient DEADBEEF file.pdf
+```
+
+```sh
+gpg --encrypt --recipient 'john@example.com' file.pdf
+```
+
 ## Decrypt files
 
 ```sh
@@ -15,7 +25,11 @@ gpg --verify dl.zip.sig dl.zip
 ## Import keys
 
 ```sh
-curl https://example.com/user.asc | gpg --import
+curl https://example.com/key.asc | gpg --import
+```
+
+```sh
+gpg --import key.asc
 ```
 
 ## Trust levels
