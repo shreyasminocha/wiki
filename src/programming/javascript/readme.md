@@ -1,5 +1,48 @@
 # JavaScript
 
+## Constructs
+
+`for … of` loops through the items of an iterable.
+
+`for … in` loops through the keys of an object.
+
+Using `for … in` is discouraged.
+
+```diff
+- for (const key in obj) {
++ for (const key of Object.keys(obj)) {
+```
+
+## Array
+
+### Functional
+
+- `filter`
+- `reduce`
+- `map`
+- `each`
+- `some`
+- `every`
+
+### Access
+
+```js
+['foo', 'bar', 'baz'].includes('bar')
+```
+
+## `Object`
+
+### `Object.assign`
+
+>   Copy the values of all of the enumerable own properties from one or more source objects to a target object. Returns the target object.
+
+```js
+Object.assign(defaults, passed); // Mutates `defaults`
+const options = Object.assign({}, defaults, passed); // Doesn't mutate `defaults`
+```
+
+
+
 ## `Date`
 
 ### `toLocalDateString(locales?, options?)`

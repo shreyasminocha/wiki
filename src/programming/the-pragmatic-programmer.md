@@ -1,7 +1,5 @@
 # The Pragmatic Programmer
 
-**Disclaimer:**
-
 **All of this is quoted from** _**The Pragmatic Programmer**_**'s appendices.**
 
 ## Tips

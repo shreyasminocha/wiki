@@ -79,3 +79,24 @@ git apply 0001-Example.patch
 ```sh
 git am 0001-Example.patch
 ```
+
+## `send-email`
+
+```ini
+[sendemail]
+    smtpserver = mail.example.com
+    smtpuser = foo
+    smtpencryption = tls
+    smtpserverport = 587
+    from = foo-alias@example.com
+    confirm = auto
+```
+
+```sh
+git send-email --to '~sircmpwn/email-test-drive@lists.sr.ht' head^
+```
+
+```sh
+git send-email --annotate -v2 head^
+```
+
