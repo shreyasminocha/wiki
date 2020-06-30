@@ -37,3 +37,8 @@ gpg --import key.asc
 -   Ultimate — it's your own key
 -   Full — you've verified the identity of the key owner _and signed their public key_
 -   Marginal — enough to make the key show up as "valid"
+
+## Links
+
+-   [OpenPGP Best Practices - riseup.net](https://riseup.net/en/security/message-security/openpgp/best-practices)
+

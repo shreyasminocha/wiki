@@ -1,12 +1,18 @@
 # Unix CLI Tools
 
-## File management
+## Disks and drives
 
 ### Wipe empty space
 
 ```sh
-dd if=/dev/zero of=out bs=1M count=1024
+sudo dd if=/dev/zero of=out bs=1M count=1024
 shred -n 5 --remove out
+```
+
+### Bootable drive
+
+```sh
+sudo dd if=Downloads/os.iso of=/dev/disk3 bs=4m && sync
 ```
 
 ## General
