@@ -31,3 +31,19 @@ date +"%Y-%m-%d"
 date +%s
 ```
 
+## Files
+
+### `sed`
+
+```sh
+sed 's/foo/bar/g' file
+```
+
+```sh
+sed 's#foo#bar#g' file
+```
+
+```sh
+sed --in-place='' 's/foo/bar/g' file
+```
+

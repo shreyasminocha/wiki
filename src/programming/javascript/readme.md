@@ -24,10 +24,18 @@ Using `for … in` is discouraged.
 - `some`
 - `every`
 
-### Access
+### Search
 
 ```js
 ['foo', 'bar', 'baz'].includes('bar')
+// true
+```
+
+### 
+
+```js
+[{ id: 2 }, { id: 3 }, { id: 9 }].find((item) => item.id === 3);
+// { id: 3 }
 ```
 
 ## `Object`
