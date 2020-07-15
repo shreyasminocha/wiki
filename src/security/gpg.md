@@ -10,6 +10,10 @@ gpg --encrypt --recipient DEADBEEF file.pdf
 gpg --encrypt --recipient 'john@example.com' file.pdf
 ```
 
+```sh
+gpg --encrypt --recipient DEADBEEF --trust-model always file.pdf
+```
+
 ## Decrypt files
 
 ```sh
