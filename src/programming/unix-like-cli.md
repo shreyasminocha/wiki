@@ -47,3 +47,21 @@ sed 's#foo#bar#g' file
 sed --in-place='' 's/foo/bar/g' file
 ```
 
+## Access control
+
+### `groupadd`
+
+```sh
+groupadd foo
+```
+
+### `useradd`
+
+```sh
+useradd \
+	-s /bin/bash \
+	-g foo \
+	-m \
+	bar
+```
+

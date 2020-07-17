@@ -18,7 +18,7 @@ Using `for … in` is discouraged.
 ### Functional
 
 - `filter`
-- `reduce`
+- `reduce(callback, init)` — `callback: (acc, current, idx, array)`
 - `map`
 - `each`
 - `some`
