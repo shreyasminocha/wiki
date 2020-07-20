@@ -47,6 +47,18 @@ sed 's#foo#bar#g' file
 sed --in-place='' 's/foo/bar/g' file
 ```
 
+### `find`
+
+### `shred`
+
+```sh
+shred --remove file
+```
+
+```sh
+find <dir> -type f -exec shred --remove {} \;
+```
+
 ## Access control
 
 ### `groupadd`
