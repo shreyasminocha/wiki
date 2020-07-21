@@ -1,161 +1,337 @@
 # Linux from Scratch
 
->   Version 9.1 (March 1st, 2020)
+> Version 9.1 (March 1st, 2020)
 
 ## Packages
 
-### zlib
+### `Zlib-1.2.11`
 
 compression-decompression
 
 -   `libz`
 
-### bzip2
+### `Bzip2-1.0.8`
 
 compression-decompression
+
+#### Programs
+
+`bzip2`, `bunzip2` primarily.
+
+Also `bz{cat,cmp,diff,egrep,fgrep,grep,less,more}` among others.
+
+#### Libraries
 
 -   `libbz2`
 
-### xz
+### `Xz-5.2.4`
 
 compression-decompression
 
+#### Programs
+
+`lzma`, `unlzma`, `xz`, `unxz` primarily.
+
+`{lz,xz}{cat,cmp,diff,egrep,fgrep,grep,less,more}`
+
+#### Libraries
+
 -   `liblzma`
 
-### file
+### `File-5.38`
 
--   `libmagic`
+determine filetypes of files
 
-### readline
+#### Programs
 
--   `libreadline`
--   `libhistory`
+`file`
 
-### m4
+#### Libraries
 
-### bc
+-   `libmagic` — magic number recognition
+
+### `Readline-8.0`
+
+command-line editing and history
+
+#### Libraries
+
+-   `libreadline` — commands for repl input manipulation
+-   `libhistory` — handle command-line history lines
+
+### `M4-1.4.18`
+
+macro processor
+
+#### Programs
+
+`m4`
+
+### `Bc-2.5.3`
 
 arbitrary precision number processing
 
-### binutils
+#### Programs
 
-### gmp
+`bc`, `dc` (rpn)
+
+### `Binutils-2.34`
+
+linker, assembler, and other stuff for handling object files
+
+##### Programs
+
+…
+
+#### Libraries
+
+…
+
+### `GMP-6.2.0`
 
 math libs
 
-### mpfr
+#### Libraries
+
+-   `libgmp` — math functions
+-   `libgmpxx` — math functions, but for C++
+
+### `MPFR-4.0.2`
 
 arbitrary precision math
 
-### mpc
+#### Libraries
+
+`libmpfr`
+
+### `MPC-1.1.0`
 
 complex number math
 
-### attr
+#### Libraries
+
+`libmpc`
+
+### `Attr-2.4.48`
 
 file extended attributes
 
-### acl
+#### Programs
 
-access control lists
+`attr`, `{get,set}fattr`
 
-### shadow
+#### Libraries
 
-user-management and access control
+`libattr`
 
-### gcc
+### `Acl-2.2.53`
 
-### pkg-config
+access control lists. fine-grained file/dir access control
 
-### ncurses
+#### Programs
 
-### libcap
+-   `chacl` — "change ACL"
+-   `{get,set}facl`
 
-### sed
+#### Libraries
 
-### psmisc
+`libacl`
 
-### iana-etc
+### `Shadow-4.8.1`
 
-### bison
+tools to securely handle passwords
 
-### flex
+#### Programs
 
-### grep
+`ch{age,fn,passwd,sh}`
 
-### bash
+`chgpasswd`
 
-### libtool
+`group{add,del,mems,mod}`
 
-### gdbm
+`gp{ck,conv,unconv}`
 
-### gperf
+`user{add,del,mod}`
 
-### expat
+…
 
-### inetutils
+### `GCC-9.2.0`
 
-### perl
+> gnu compiler collection
 
-### xml parser
+c compiler
 
-### intltool
+#### Programs
 
-### autoconf
+`{c,g}++`
 
-### automake
+`{,g}cc`
 
-### kmod
+`gcov{,-dump,-tool}` — coverage testing tool
 
-### gettext
+#### Libraries
 
-### libelf
+…
 
-### libffi
+### `Pkg-config-0.29.2`
 
-### openssl
+### `Ncurses-6.2`
 
-### python
+"libraries for terminal-independent handling of character screens"
 
-### ninja
+### `Libcap-2.31`
 
-### meson
+"capabilities" (aka privileges)
 
-### coreutils
+### `Sed-4.8`
 
-### check
+stream editor. find-replace
 
-### diffutils
+`sed`
 
-### gawk
+### `Psmisc-23.2`
 
-### findutils
+display info about running processes
 
-### groff
+### `Iana-Etc-2.30`
 
-### grub
+data for network services|protocols
 
-### less
+Installs `/etc/protocols` and `/etc/services`
 
-### gzip
+### `Bison-3.5.2`
 
-### zstd
+parser generator
 
-### iproute2
+-   `bison` — given rules generates parser code
+-   `yacc` ("yet another compiler compiler")
 
-### kbd
+*   `liby`
 
-### libpipeline
+### `Flex-2.6.4`
 
-### make
+### `Grep-3.4`
 
-### patch
+find with regex
 
-### man-db
+### `Bash-5.0`
 
-### tar
+shell
 
-### texinfo
+### `Libtool-2.4.6`
 
-### vim
+### `GDBM-1.18.1`
 
+database utils. key-value stores
+
+### `Gperf-3.1`
+
+### `Expat-2.2.9`
+
+### `Inetutils-1.9.4`
+
+### `Perl-5.30.1`
+
+### `XML::Parser-2.46`
+
+### `Intltool-0.51.0`
+
+i18n
+
+### `Autoconf-2.69`
+
+### `Automake-1.16.1`
+
+### `Kmod-26`
+
+kernel modules
+
+### `Gettext-0.20.1`
+
+i18n
+
+### `Libelf from Elfutils-0.178`
+
+executable and linked files
+
+### `Libffi-3.3`
+
+### `OpenSSL-1.1.1d`
+
+### `Python-3.8.1`
+
+### `Ninja-1.10.0`
+
+simple build system
+
+### `Meson-0.53.1`
+
+another simple build system
+
+### `Coreutils-8.31`
+
+buncha random unix-ey tools
+
+### `Check-0.14.0`
+
+testing/assertion
+
+### `Diffutils-3.7`
+
+diff and siblings
+
+### `Gawk-5.0.1`
+
+### `Findutils-4.7.0`
+
+finding files and things
+
+### `Groff-1.22.4`
+
+document processing
+
+### `GRUB-2.04`
+
+> grand unified bootloader
+
+bootloader
+
+### `Less-551`
+
+pager
+
+### `Gzip-1.10`
+
+compression-decompression
+
+### `Zstd-1.4.4`
+
+compression-decompression
+
+### `IPRoute2-5.5.0`
+
+### `Kbd-2.2.0`
+
+### `Libpipeline-1.5.2`
+
+### `Make-4.3`
+
+build systems
+
+### `Patch-2.7.6`
+
+apply patches (typically) created via diff
+
+### `Man-DB-2.9.0`
+
+man pages.
+
+### `Tar-1.32`
+
+### `Texinfo-6.7`
+
+info pages. man pages, except longer.
+
+### `Vim-8.2.0190`
+
+vim.
