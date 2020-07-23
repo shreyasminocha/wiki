@@ -37,6 +37,7 @@
     -   [Python](programming/python/readme.md)
         -   [Flask](programming/python/flask.md)
     -   [Regular Expressions](programming/regex.md)
+    -   [Scalable Vector Graphics](programming/svg.md)
     -   [Scheme](programming/scheme.md)
     -   [SQL](programming/sql/readme.md)
         -   [MySQL](programming/sql/mysql.md)

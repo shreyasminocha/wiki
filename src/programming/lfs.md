@@ -14,13 +14,13 @@ compression-decompression
 
 compression-decompression
 
-#### Programs
+#### 
 
 `bzip2`, `bunzip2` primarily.
 
 Also `bz{cat,cmp,diff,egrep,fgrep,grep,less,more}` among others.
 
-#### Libraries
+#### 
 
 -   `libbz2`
 
@@ -28,7 +28,7 @@ Also `bz{cat,cmp,diff,egrep,fgrep,grep,less,more}` among others.
 
 compression-decompression
 
-#### Programs
+#### 
 
 `lzma`, `unlzma`, `xz`, `unxz` primarily.
 
@@ -42,11 +42,11 @@ compression-decompression
 
 determine filetypes of files
 
-#### Programs
+#### 
 
 `file`
 
-#### Libraries
+#### 
 
 -   `libmagic` — magic number recognition
 
@@ -54,7 +54,7 @@ determine filetypes of files
 
 command-line editing and history
 
-#### Libraries
+#### 
 
 -   `libreadline` — commands for repl input manipulation
 -   `libhistory` — handle command-line history lines
@@ -63,7 +63,7 @@ command-line editing and history
 
 macro processor
 
-#### Programs
+#### 
 
 `m4`
 
@@ -71,7 +71,7 @@ macro processor
 
 arbitrary precision number processing
 
-#### Programs
+#### 
 
 `bc`, `dc` (rpn)
 
@@ -79,11 +79,11 @@ arbitrary precision number processing
 
 linker, assembler, and other stuff for handling object files
 
-##### Programs
+##### 
 
 …
 
-#### Libraries
+#### 
 
 …
 
@@ -91,7 +91,7 @@ linker, assembler, and other stuff for handling object files
 
 math libs
 
-#### Libraries
+#### 
 
 -   `libgmp` — math functions
 -   `libgmpxx` — math functions, but for C++
@@ -100,7 +100,7 @@ math libs
 
 arbitrary precision math
 
-#### Libraries
+#### 
 
 `libmpfr`
 
@@ -108,7 +108,7 @@ arbitrary precision math
 
 complex number math
 
-#### Libraries
+#### 
 
 `libmpc`
 
@@ -116,11 +116,11 @@ complex number math
 
 file extended attributes
 
-#### Programs
+#### 
 
 `attr`, `{get,set}fattr`
 
-#### Libraries
+#### 
 
 `libattr`
 
@@ -128,12 +128,12 @@ file extended attributes
 
 access control lists. fine-grained file/dir access control
 
-#### Programs
+#### 
 
 -   `chacl` — "change ACL"
 -   `{get,set}facl`
 
-#### Libraries
+#### 
 
 `libacl`
 
@@ -141,7 +141,7 @@ access control lists. fine-grained file/dir access control
 
 tools to securely handle passwords
 
-#### Programs
+#### 
 
 `ch{age,fn,passwd,sh}`
 
@@ -161,15 +161,11 @@ tools to securely handle passwords
 
 c compiler
 
-#### Programs
-
 `{c,g}++`
 
 `{,g}cc`
 
 `gcov{,-dump,-tool}` — coverage testing tool
-
-#### Libraries
 
 …
 
@@ -206,39 +202,88 @@ parser generator
 -   `bison` — given rules generates parser code
 -   `yacc` ("yet another compiler compiler")
 
+
+
 *   `liby`
 
 ### `Flex-2.6.4`
+
+kinda like bison?
+
+`flex`, `flex++`, …
+
+`libfl`
 
 ### `Grep-3.4`
 
 find with regex
 
+`{e,f,}grep`
+
+`e`: extended
+
+`f`: "fixed strings"
+
 ### `Bash-5.0`
 
 shell
 
+`bash`, `bashbug`
+
 ### `Libtool-2.4.6`
+
+generic library for consistent shared library support
 
 ### `GDBM-1.18.1`
 
-database utils. key-value stores
+>   GNU DB Manager
+
+database utils. key-value stores. crud.
 
 ### `Gperf-3.1`
 
+"generates a perfect hash function from a key set"
+
 ### `Expat-2.2.9`
+
+parse XML with C
+
+`xmlwf`. xml well-formed?
+
+`libexpat`
 
 ### `Inetutils-1.9.4`
 
+networking tools
+
+-   `dnsdomainname`
+-   `{,t}ftp`
+-   `hostname`
+-   `ifconfig`
+-   `ping{,6}`
+-   `talk`
+-   `telnet`
+-   `traceroute`
+
 ### `Perl-5.30.1`
+
+>   Practical Extraction and Report Language
+
+`perl{,bug,doc,ivp,thanks,5.30.1}`, `pod{…}` (documentation format), …
 
 ### `XML::Parser-2.46`
 
+perl interface to expat
+
 ### `Intltool-0.51.0`
 
-i18n
+i18n tool to extract translatable strings from source files
+
+`intltoolize`, `intltool-{extract,merge,prepare,update}`
 
 ### `Autoconf-2.69`
+
+creates shell scripts to _auto-configure_ source code
 
 ### `Automake-1.16.1`
 
