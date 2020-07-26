@@ -70,7 +70,7 @@ git push origin local-branch:remote-branch
 git format-patch --to example@example.com head~..head
 ```
 
-## Applying patches
+### Applying patches
 
 ```sh
 git apply 0001-Example.patch
@@ -99,4 +99,8 @@ git send-email --to '~sircmpwn/email-test-drive@lists.sr.ht' head^
 ```sh
 git send-email --annotate -v2 head^
 ```
+
+## Subdirectory filter
+
+See [_Move files from one repository to another, preserving git history_](https://medium.com/@ayushya/move-directory-from-one-repository-to-another-preserving-git-history-d210fa049d4b).
 

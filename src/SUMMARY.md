@@ -9,6 +9,7 @@
 -   [Privacy](privacy/readme.md)
     -   [Tor](privacy/tor.md)
 -   [Programming](programming/readme.md)
+    -   [Bash](programming/bash.md)
     -   [Cron](programming/cron.md)
     -   [CSS](programming/css.md)
     -   [Docker](programming/docker.md)
