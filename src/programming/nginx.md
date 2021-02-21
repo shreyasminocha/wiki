@@ -71,6 +71,10 @@ rewrite ^/(.*)(?:\.html|/)$ /$1 permanent;
 		ssi on;
 ```
 
+[Docs](https://nginx.org/en/docs/http/ngx_http_ssi_module.html)
+
+### [Commands](https://nginx.org/en/docs/http/ngx_http_ssi_module.html#commands)
+
 ## Subdirectory → subdomain mapping
 
 ```nginx

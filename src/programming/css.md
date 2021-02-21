@@ -35,3 +35,12 @@ main { grid-area: content; }
 footer { grid-area: footer; }
 ```
 
+## Center things
+
+```css
+.hero {
+    display: grid;
+    place-items: center;
+}
+```
+

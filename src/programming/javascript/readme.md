@@ -20,7 +20,7 @@ Using `for … in` is discouraged.
 - `filter`
 - `reduce(callback, init)` — `callback: (acc, current, idx, array)`
 - `map`
-- `each`
+- `forEach`
 - `some`
 - `every`
 
